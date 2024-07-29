@@ -1,7 +1,12 @@
 #!/usr/bin/python3
+""" Pascasl Triangle """
 
 
 def pascal_triangle(n):
+    """Implementation of the pascal triangle
+    Args:
+        n: number of row
+    """
     tri = []
     if n <= 0:
         return tri
